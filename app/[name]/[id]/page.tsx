@@ -73,7 +73,7 @@ async function Page({ params: { id } }: Props) {
           <div className="lg:hidden mt-10 space-y-4 pb-10">
             <h1 className="font-bold mb-2">Screenshots:</h1>
             {data.screenshots.map((shot: Props, index: number) => (
-              <Screenshots shot={shot.original} index={index} />
+              <Screenshots shot={shot.original} key={index} index={index} />
             ))}
           </div>
         </div>
