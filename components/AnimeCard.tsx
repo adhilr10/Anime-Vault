@@ -38,7 +38,7 @@ function AnimeCard({ anime, index }: Prop) {
       viewport={{ amount: 0 }}
       className="max-w-sm rounded relative w-full"
     >
-      <Link href={`/${anime.name}/${anime.id}`}>
+      <Link href={`/details/${anime.name}/${anime.id}`}>
         <div className="relative w-full h-[37vh]">
           <Image
             src={`https://shikimori.one${anime.image.original}`}
