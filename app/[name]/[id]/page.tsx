@@ -4,7 +4,7 @@ import Genre from "@/components/Genre";
 import Buttons from "@/components/Buttons";
 import Screenshots from "@/components/Screenshots";
 
-type Props = {
+interface Props  {
   params: {
     id: number;
   };
