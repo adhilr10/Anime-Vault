@@ -6,7 +6,7 @@ import Screenshots from "@/components/Screenshots";
 
 interface Props  {
   params: {
-    id: number;
+    id: string;
   };
   name: string;
   original: string;
