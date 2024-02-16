@@ -1,4 +1,4 @@
-import { fetchAnimeDetails } from "../action";
+import { fetchAnimeDetails } from "../../action";
 import Image from "next/image";
 import Genre from "@/components/Genre";
 import Buttons from "@/components/Buttons";

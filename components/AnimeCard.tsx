@@ -24,7 +24,7 @@ export const variants = {
   visible: { opacity: 1 },
 };
 
-function AnimeCard({ anime, index }: Prop) {
+export function AnimeCard({ anime, index }: Prop) {
   return (
     <MotionDiv
       variants={variants}
@@ -90,4 +90,4 @@ function AnimeCard({ anime, index }: Prop) {
   );
 }
 
-export default AnimeCard;
+
